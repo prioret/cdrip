@@ -1,0 +1,23 @@
+# CD Ripping
+CDROMREADERSYNTAX=cdparanoia
+CDROM=/dev/sr1
+
+# Encoding
+FLACOPTS='-s -e -V -8'
+OUTPUTTYPE="flac"
+
+# MusicBrainz for Metadata
+CDDBMETHOD=musicbrainz
+
+# Output Directory
+OUTPUTDIR="/home/tompriore/Music/"
+
+# Track and Album Naming
+OUTPUTFORMAT='${ARTISTFILE}/${ALBUMFILE}/${DISCNUMBER}/${TRACKNUM} - ${TRACKFILE}'
+VAOUTPUTFORMAT='${ALBUMFILE}/${DISCNUMBER}/${TRACKNUM} - ${ARTISTFILE} - ${TRACKFILE}'
+
+PADTRACKS=y
+INTERACTIVE=n
+EJECTCD=y
+CDDBPROTO=6
+WAVOUTPUTDIR=/home/tompriore/abcde/1

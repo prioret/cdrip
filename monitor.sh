@@ -1,0 +1,9 @@
+gnome-terminal -- bash -c  "tail -f rip_cd0.log" &
+gnome-terminal -- bash -c  "tail -f rip_cd1.log" &
+gnome-terminal -- bash -c  "tail -f rip_cd2.log" &
+gnome-terminal -- bash -c  "tail -f rip_cd3.log" &
+gnome-terminal -- bash -c  "tail -f rip_cd4.log" &
+gnome-terminal -- bash -c  "tail -f rip_cd5.log" &
+gnome-terminal -- bash -c  "tail -f rip_cd6.log" &
+gnome-terminal -- bash -c  "tail -f rip_cd7.log" &
+gnome-terminal -- bash -c  "tail -f rip_cd8.log" &
